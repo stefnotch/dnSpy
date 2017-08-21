@@ -170,7 +170,7 @@ namespace dnSpy_Console {
 		public void Dispose() => writer.Dispose();
 	}
 
-	sealed class DnSpyDecompiler : IMSBuildProjectWriterLogger {
+	public sealed class DnSpyDecompiler : IMSBuildProjectWriterLogger {
 		bool isRecursive = false;
 		bool useGac = true;
 		bool addCorlibRef = true;

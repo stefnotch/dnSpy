@@ -27,7 +27,7 @@ using System.Threading.Tasks;
 using dnSpy.Decompiler.Properties;
 
 namespace dnSpy.Decompiler.MSBuild {
-	sealed class MSBuildProjectCreator {
+	public sealed class MSBuildProjectCreator {
 		readonly ProjectCreatorOptions options;
 		readonly List<Project> projects;
 		readonly IMSBuildProjectWriterLogger logger;
