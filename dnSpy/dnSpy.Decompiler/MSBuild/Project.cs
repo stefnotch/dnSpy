@@ -30,7 +30,7 @@ using dnSpy.Contracts.Decompiler;
 using dnSpy.Decompiler.Properties;
 
 namespace dnSpy.Decompiler.MSBuild {
-	sealed class Project {
+	public sealed class Project {
 		public ProjectModuleOptions Options { get; }
 		public string DefaultNamespace { get; }
 		public string AssemblyName { get; }

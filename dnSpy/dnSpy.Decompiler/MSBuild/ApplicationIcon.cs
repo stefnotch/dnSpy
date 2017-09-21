@@ -26,7 +26,7 @@ using dnlib.W32Resources;
 using dnSpy.Decompiler.Properties;
 
 namespace dnSpy.Decompiler.MSBuild {
-	sealed class ApplicationIcon : IFileJob {
+	public sealed class ApplicationIcon : IFileJob {
 		const int RT_ICON = 3;
 		const int RT_GROUP_ICON = 14;
 

@@ -30,7 +30,7 @@ using dnSpy.Contracts.Decompiler;
 using dnSpy.Contracts.Utilities;
 
 namespace dnSpy.Decompiler.MSBuild {
-	sealed class ProjectWriter {
+	public sealed class ProjectWriter {
 		readonly Project project;
 		readonly ProjectVersion projectVersion;
 		readonly IList<Project> allProjects;

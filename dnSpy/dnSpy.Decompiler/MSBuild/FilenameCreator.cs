@@ -24,7 +24,7 @@ using System.IO;
 using dnlib.DotNet;
 
 namespace dnSpy.Decompiler.MSBuild {
-	sealed class FilenameCreator {
+	public sealed class FilenameCreator {
 		public string DefaultNamespace => defaultNamespace;
 		readonly string defaultNamespace;
 

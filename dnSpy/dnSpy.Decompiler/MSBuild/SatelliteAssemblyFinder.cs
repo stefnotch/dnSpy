@@ -25,7 +25,7 @@ using System.Linq;
 using dnlib.DotNet;
 
 namespace dnSpy.Decompiler.MSBuild {
-	sealed class SatelliteAssemblyFinder : IDisposable {
+	public sealed class SatelliteAssemblyFinder : IDisposable {
 		readonly HashSet<string> cultures;
 		readonly Dictionary<string, ModuleDef> openedModules;
 

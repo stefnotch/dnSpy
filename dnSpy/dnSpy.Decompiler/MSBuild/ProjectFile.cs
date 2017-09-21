@@ -18,7 +18,7 @@
 */
 
 namespace dnSpy.Decompiler.MSBuild {
-	abstract class ProjectFile : IFileJob {
+	public abstract class ProjectFile : IFileJob {
 		public abstract string Description { get; }
 		public abstract string Filename { get; }
 		public abstract BuildAction BuildAction { get; }

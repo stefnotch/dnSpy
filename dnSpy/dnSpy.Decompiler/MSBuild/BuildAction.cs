@@ -18,7 +18,7 @@
 */
 
 namespace dnSpy.Decompiler.MSBuild {
-	enum BuildAction {
+	public enum BuildAction {
 		/// <summary>
 		/// The created file isn't included in the project file. Can be used if the file turned out
 		/// to be empty and no file was created.

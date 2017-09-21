@@ -25,7 +25,7 @@ using System.Text;
 using dnlib.PE;
 
 namespace dnSpy.Decompiler.MSBuild {
-	sealed class SolutionWriter {
+	public sealed class SolutionWriter {
 		readonly ProjectVersion projectVersion;
 		readonly List<Project> projects;
 		readonly string filename;

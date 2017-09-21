@@ -18,12 +18,12 @@
 */
 
 namespace dnSpy.Decompiler.MSBuild {
-	interface IJob {
+	public interface IJob {
 		string Description { get; }
 		void Create(DecompileContext ctx);
 	}
 
-	interface IFileJob : IJob {
+	public interface IFileJob : IJob {
 		string Filename { get; }
 	}
 }

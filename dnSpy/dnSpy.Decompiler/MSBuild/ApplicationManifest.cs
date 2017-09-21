@@ -23,7 +23,7 @@ using dnlib.W32Resources;
 using dnSpy.Decompiler.Properties;
 
 namespace dnSpy.Decompiler.MSBuild {
-	sealed class ApplicationManifest : IFileJob {
+	public sealed class ApplicationManifest : IFileJob {
 		const int RT_MANIFEST = 24;
 
 		public string Description => dnSpy_Decompiler_Resources.MSBuild_CreateAppManifest;
