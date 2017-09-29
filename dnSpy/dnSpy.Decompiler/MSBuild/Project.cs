@@ -38,7 +38,7 @@ namespace dnSpy.Decompiler.MSBuild {
 		public List<ProjectFile> Files { get; }
 		public Guid Guid => Options.ProjectGuid;
 		public Guid LanguageGuid { get; }
-		public string Filename { get; }
+		public string Filename { get; set; }
 		public string Directory { get; }
 		public string Platform { get; set; }
 		public HashSet<Guid> ProjectTypeGuids { get; }
