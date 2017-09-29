@@ -32,7 +32,7 @@ using dnSpy.Decompiler.Properties;
 namespace dnSpy.Decompiler.MSBuild {
 	public sealed class Project {
 		public ProjectModuleOptions Options { get; }
-		public string DefaultNamespace { get; }
+		public string DefaultNamespace { get; set; }
 		public string AssemblyName { get; }
 		public ModuleDef Module => Options.Module;
 		public List<ProjectFile> Files { get; }
